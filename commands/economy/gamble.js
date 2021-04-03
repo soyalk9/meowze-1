@@ -22,7 +22,7 @@ exports.run = async(client, message, args) => {
   
   if(!color) return message.channel.send(`Please choose anyone color [ Red, Blue or Green ]`)
   if(amount > money) return message.channel.send(`You cannot gamble more than you have.`)
-  if(amount < 100) return message.channel.send(`You must gamble at least 100 <:meowcoin:759993220108648509>`)
+  if(amount < 100) return message.channel.send(`You must gamble at least 100  <:coin:827790769904418817> `)
   if(args[1].includes("-")) return message.channel.send(`You cannot gamble negative amount`)
   
   let ran = ["red", "blue", "green"]
